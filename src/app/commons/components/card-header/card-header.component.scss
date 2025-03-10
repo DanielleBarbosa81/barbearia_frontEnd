@@ -1,0 +1,37 @@
+.title-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adicionando 100% de largura para garantir que o conteúdo ocupe toda a largura disponível */
+}
+
+.mat-mdc-card-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-title {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center; /* Alinha o título e a imagem na vertical */
+  justify-content: flex-start; /* Garante que a imagem e o conteúdo fiquem alinhados à esquerda */
+}
+
+.card-title-content {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o conteúdo na vertical */
+  justify-content: flex-start; /* Garante que a imagem e o conteúdo fiquem alinhados à esquerda */
+  width: 100%; /* Garante que o conteúdo ocupe toda a largura */
+}
+
+.image-container {
+  margin-right: 10px; /* Espaço entre a imagem e o conteúdo */
+}
+
+.logo-img {
+  width: 40px;  /* Tamanho da imagem */
+  height: auto;
+  border-radius: 50%;  /* Faz a imagem ficar redonda (opcional) */
+}
